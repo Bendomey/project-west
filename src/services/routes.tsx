@@ -32,6 +32,10 @@ const routes: RouteProps[] = [
     name: "Referrals",
     path: "/referrals",
   },
+  {
+    name: "Contact Us",
+    path: "/contact-us",
+  },
 ];
 
 export default routes;
