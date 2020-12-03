@@ -76,7 +76,7 @@ const data: GalleryDataProps[] = [
   },
 ];
 
-const ServicePage = ({ location }: PageProps) => {
+const GalleryPage = ({ location }: PageProps) => {
   const [photoIndex, setPhotoIndex] = React.useState<number>(0);
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   return (
@@ -149,4 +149,4 @@ const ServicePage = ({ location }: PageProps) => {
   );
 };
 
-export default ServicePage;
+export default GalleryPage;
