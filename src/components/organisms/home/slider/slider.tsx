@@ -4,10 +4,10 @@ import { Transition } from "@headlessui/react";
 const SliderComponent = () => {
   return (
     <React.Fragment>
-      <div className={"relative h-96"}>
+      <div className={"relative h-72 sm:h-72 md:h-96"}>
         <div
           className={
-            "absolute h-full w-full bg-black bg-opacity-40 flex justify-center items-center"
+            "absolute h-full w-full bg-black bg-opacity-50 sm:bg-opacity-50 md:bg-opacity-40 flex justify-center items-center"
           }
         >
           <Transition
@@ -19,7 +19,11 @@ const SliderComponent = () => {
             leaveFrom="translate-y-0"
             leaveTo="-translate-y-full"
           >
-            <h1 className={"font-extrabold text-white text-5xl"}>
+            <h1
+              className={
+                "font-extrabold text-white text-2xl sm:text-2xl md:text-5xl"
+              }
+            >
               Welcome to Project West
             </h1>
           </Transition>
