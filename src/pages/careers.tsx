@@ -1,7 +1,8 @@
 import * as React from "react";
 import Layout from "../components/organisms/layout";
 import { PageProps } from "gatsby";
-import SliderComponent from "../components/organisms/services/slider";
+import SliderComponent from "../components/organisms/careers/slider";
+import Question from "../components/organisms/careers/Question";
 
 const ServicePage = ({ location }: PageProps) => {
   return (
@@ -20,8 +21,161 @@ const ServicePage = ({ location }: PageProps) => {
                 Available jobs :
               </p>
             </div>
-
-            <div id={"child-contact-service"}>will come back here later</div>
+            <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+              <Question
+                title={"1. Contact supervisor, Escort, Driver –Job Code 0001"}
+              >
+                <React.Fragment>
+                  <p>
+                    To work as a member of a team providing: a escort service or
+                    drivers role; care and supervision in the community / home /
+                    contact centre (including supervising contact visits) or any
+                    other service required by our service users. Provide a safe
+                    and supportive environment to ensure at all times the
+                    physical and emotional wellbeing of the child/ young person
+                    in our care
+                  </p>
+                  <ul className="list-disc p-5">
+                    <li>
+                      Please{" "}
+                      <a
+                        target="_blank"
+                        href={
+                          "http://www.projectwest.co.uk/wp-content/uploads/2015/01/Job-Description-Contact-supervisor-Escort-Driver-Updated-Jan-2015.doc"
+                        }
+                        className={"text-blue-500 hover:underline"}
+                      >
+                        Click Here
+                      </a>{" "}
+                      for a Job Description
+                    </li>
+                    <li className={"mt-2"}>
+                      Please{" "}
+                      <a
+                        target="_blank"
+                        href={
+                          "http://www.projectwest.co.uk/wp-content/uploads/2014/12/PROJECT-WEST-Personal-Specification.doc"
+                        }
+                        className={"text-blue-500 hover:underline"}
+                      >
+                        Click Here
+                      </a>{" "}
+                      for a Personal Specification
+                    </li>
+                    <li className={"mt-2"}>
+                      Please{" "}
+                      <a
+                        target="_blank"
+                        href={
+                          "http://www.projectwest.co.uk/wp-content/uploads/2015/01/PW-Application-Form-1.docx"
+                        }
+                        className={"text-blue-500 hover:underline"}
+                      >
+                        Click Here
+                      </a>{" "}
+                      to download our Application Form
+                    </li>
+                    <li className={"mt-2"}>
+                      Please{" "}
+                      <a
+                        target="_blank"
+                        href={
+                          "http://www.projectwest.co.uk/wp-content/uploads/2018/07/Document-check-list-for-our-staff.pdf"
+                        }
+                        className={"text-blue-500 hover:underline"}
+                      >
+                        Click Here
+                      </a>{" "}
+                      to download the Document check list needed to become a
+                      member of staff
+                    </li>
+                  </ul>
+                </React.Fragment>
+              </Question>
+              <div className={"mt-5"}>
+                <Question
+                  title={
+                    "Social Worker (Independent Assessments) –Job Code-0002"
+                  }
+                >
+                  <React.Fragment>
+                    <p>
+                      To undertake court-directed Parenting and Family
+                      assessments using The Department of Education framework
+                      and provide high quality analysis and recommendations as
+                      required by letter of instruction
+                    </p>
+                    <ul className="list-disc p-5">
+                      <li>
+                        Please{" "}
+                        <a
+                          target="_blank"
+                          href={
+                            "http://www.projectwest.co.uk/wp-content/uploads/2015/01/Job-Description-Social-Worker.docx"
+                          }
+                          className={"text-blue-500 hover:underline"}
+                        >
+                          Click Here
+                        </a>{" "}
+                        for a Job Description
+                      </li>
+                      <li className={"mt-2"}>
+                        Please{" "}
+                        <a
+                          target="_blank"
+                          href={
+                            "http://www.projectwest.co.uk/wp-content/uploads/2014/12/PROJECT-WEST-Personal-Specification.doc"
+                          }
+                          className={"text-blue-500 hover:underline"}
+                        >
+                          Click Here
+                        </a>{" "}
+                        for a Personal Specification
+                      </li>
+                      <li className={"mt-2"}>
+                        Please{" "}
+                        <a
+                          target="_blank"
+                          href={
+                            "http://www.projectwest.co.uk/wp-content/uploads/2015/01/PW-Application-Form-1.docx"
+                          }
+                          className={"text-blue-500 hover:underline"}
+                        >
+                          Click Here
+                        </a>{" "}
+                        to download our Application Form
+                      </li>
+                      <li className={"mt-2"}>
+                        Please{" "}
+                        <a
+                          target="_blank"
+                          href={
+                            "http://www.projectwest.co.uk/wp-content/uploads/2018/07/Document-check-list-for-our-staff.pdf"
+                          }
+                          className={"text-blue-500 hover:underline"}
+                        >
+                          Click Here
+                        </a>{" "}
+                        to download the Document check list needed to become a
+                        member of staff
+                      </li>
+                      <li className={"mt-2"}>
+                        Please refer to the{" "}
+                        <a
+                          target="_blank"
+                          href={
+                            "https://www.gov.uk/government/publications/working-together-to-safeguard-children--2"
+                          }
+                          className={"text-blue-500 hover:underline"}
+                        >
+                          Working Together Agreement
+                        </a>{" "}
+                      </li>
+                    </ul>
+                  </React.Fragment>
+                </Question>
+              </div>
+            </div>
           </div>
           <div
             className={
