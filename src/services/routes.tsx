@@ -20,10 +20,10 @@ const routes: RouteProps[] = [
     name: "Gallery",
     path: "/gallery",
   },
-  {
-    name: "Blog",
-    path: "/blog",
-  },
+  // {
+  //   name: "Blog",
+  //   path: "/blog",
+  // },
   {
     name: "Careers",
     path: "/careers",
