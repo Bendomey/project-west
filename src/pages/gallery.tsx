@@ -1,8 +1,7 @@
 import * as React from "react";
-import "react-image-lightbox/style.css";
 import Layout from "../components/organisms/layout";
 import { PageProps } from "gatsby";
-import SliderComponent from "../components/organisms/services/slider";
+// import SliderComponent from "../components/organisms/services/slider";
 import SingleGalleryItem from "../components/organisms/gallery/singleImage";
 import Lightbox from "react-image-lightbox";
 
