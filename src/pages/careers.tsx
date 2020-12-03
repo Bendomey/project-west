@@ -15,13 +15,9 @@ const ServicePage = ({ location }: PageProps) => {
             }
           />
           <div className={"my-10"}>
-            <div className="lg:text-center">
+            <div className="text-center">
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Available jobs :
-              </p>
-              <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-                magnam voluptatum cupiditate veritatis in accusamus quisquam.
               </p>
             </div>
 
@@ -43,16 +39,18 @@ const ServicePage = ({ location }: PageProps) => {
                 }
               >
                 <div
-                  className={"col-span-6 flex flex-col justify-center w-2/3"}
+                  className={
+                    "col-span-6 flex flex-col justify-start sm:justify-start md:justify-center w-11/12 sm:w-11/12 md:w-2/3"
+                  }
                 >
                   <h1
                     className={
-                      " font-medium uppercase text-sm sm:text-sm md:text-lg"
+                      " font-light uppercase text-xs sm:text-sm md:text-lg"
                     }
                   >
                     Apply here:
                   </h1>
-                  <span className={"mt-1 text-1xl  font-medium text-white"}>
+                  <span className={"mt-1 text-3xl  font-bold text-white"}>
                     Please Download Application Form for respective job and send
                     along with your CV.
                   </span>
@@ -63,7 +61,11 @@ const ServicePage = ({ location }: PageProps) => {
                   "w-full h-full col-span-2 flex py-10 items-center justify-center"
                 }
               >
-                <form className={"grid grid-cols-8 w-11/12 gap-3 py-6 "}>
+                <form
+                  className={
+                    "grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 w-11/12 gap-3 py-6 "
+                  }
+                >
                   <div className={"col-span-4"}>
                     <div>
                       <label htmlFor="name" className={"text-sm text-white"}>
@@ -74,7 +76,7 @@ const ServicePage = ({ location }: PageProps) => {
                           id="name"
                           type="text"
                           required
-                          className="py-5 text-gray-700 border-transparent text-2xl focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
+                          className="py-2 sm:py-2 md:py-5 text-gray-700 border-transparent text-normal sm:text-normal md:text-lg  focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
                           placeholder="Your Name *"
                         />
                       </div>
@@ -91,7 +93,7 @@ const ServicePage = ({ location }: PageProps) => {
                           required
                           name="email"
                           id="email"
-                          className="py-5 text-gray-700 text-2xl border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
+                          className="py-2 sm:py-2 md:py-5 text-gray-700 text-normal sm:text-normal md:text-lg border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
                           placeholder="Your Email *"
                         />
                       </div>
@@ -106,7 +108,7 @@ const ServicePage = ({ location }: PageProps) => {
                         <input
                           required
                           type="text"
-                          className="py-5 text-gray-700 text-2xl border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
+                          className="py-2 sm:py-2 md:py-5 text-gray-700 text-normal sm:text-normal md:text-lg  border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
                           placeholder="Job Code *"
                         />
                       </div>
@@ -121,7 +123,7 @@ const ServicePage = ({ location }: PageProps) => {
                         <input
                           required
                           type="file"
-                          className="py-4 text-gray-700 px-2 text-2xl border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
+                          className="py-2 sm:py-2 md:py-4 text-gray-700 px-2 text-normal sm:text-normal md:text-lg  border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
                           placeholder="Job Code *"
                         />
                       </div>
@@ -136,21 +138,22 @@ const ServicePage = ({ location }: PageProps) => {
                         <input
                           required
                           type="file"
-                          className="py-3 text-gray-700 px-2 text-2xl border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
+                          className="py-2 sm:py-2 md:py-3 text-gray-700 px-2 text-normal sm:text-normal md:text-lg  border-transparent focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm rounded-none"
                           placeholder="Job Code *"
                         />
                       </div>
                     </div>
                   </div>
                   <div className={"col-span-4 flex flex-col"}>
-                    <div className={"mb-1"}>
-                      <label htmlFor="name" className={"text-sm text-white"}>
-                        Attach Job Application
-                      </label>
+                    <div className={"mb-2 sm:mb-2 md:mb-6"}>
+                      <label
+                        htmlFor="name"
+                        className={"text-sm text-white"}
+                      ></label>
                     </div>
                     <button
                       type="submit"
-                      className="flex justify-center px-4 py-4 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                      className="flex justify-center px-4 py-5 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                     >
                       SEND
                     </button>
