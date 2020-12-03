@@ -10,6 +10,7 @@ const IndexPage = ({ location }: PageProps) => {
       <Layout location={location}>
         <React.Fragment>
           <SliderComponent />
+          <div className={"my-1"}>hello worls</div>
         </React.Fragment>
       </Layout>
     </React.Fragment>

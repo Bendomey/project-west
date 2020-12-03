@@ -39,6 +39,23 @@ const SliderComponent = () => {
           }}
         />
       </div>
+      <div
+        className={
+          "bg-primary-600 w-full h-full sm:h-full md:h-44 text-gray-200 flex justify-center items-center "
+        }
+      >
+        <div className={"w-10/12"}>
+          <p className={"font-light text-center"}>
+            We are an experienced leading Child Contact & Assessment Centre
+            based in London. Our multi-disciplinary team provides services in
+            all areas of Child Contact; Parenting Assessments; Family Support
+            and Mentoring. We ensure the protection and safety of children and
+            young people by providing a forum where parents and children/young
+            people can be together in a safe caring environment with a staff
+            team who work with the family to promote good parenting skills.
+          </p>
+        </div>
+      </div>
     </React.Fragment>
   );
 };
