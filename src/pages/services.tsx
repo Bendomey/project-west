@@ -13,9 +13,6 @@ const ServicePage = ({ location }: PageProps) => {
             image={
               "https://images.unsplash.com/photo-1469406396016-013bfae5d83e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
             }
-            // image={
-            //   "https://images.unsplash.com/photo-1518842023089-50e9ac314ad1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80"
-            // }
           />
           <div className={"my-10"}>
             <div className="lg:text-center">
