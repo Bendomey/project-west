@@ -4,7 +4,91 @@ import { Link } from "gatsby";
 const Footer = () => {
   return (
     <React.Fragment>
-      <footer className="bg-white">
+      <div
+        className={"bg-primary-600 w-full h-full sm:h-full md:h-44 text-white "}
+      >
+        <div
+          className={
+            "w-full h-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3"
+          }
+        >
+          <div
+            className={
+              "w-full h-full col-span-1 flex items-center justify-center"
+            }
+          >
+            <div className={"grid grid-cols-8 w-11/12 gap-x-3 py-6 "}>
+              <div className={"col-span-2 flex justify-center items-center"}>
+                <img
+                  src="http://www.projectwest.co.uk/wp-content/uploads/2014/11/naccc1.png"
+                  className={"h-auto w-auto"}
+                  alt=""
+                />
+              </div>
+              <div className={"col-span-6 flex flex-col justify-center"}>
+                <h1 className={" font-medium text-sm sm:text-sm md:text-lg"}>
+                  Enhanced Accredited by NACCC
+                </h1>
+                <span className={"mt-1 text-sm font-thin text-white"}>
+                  We are Enhanced Accredited by the National Association of
+                  Child Contact Centres (NACCC).
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className={
+              "w-full h-full col-span-1 flex items-center bg-primary-700 justify-center"
+            }
+          >
+            <div className={"grid grid-cols-8 w-11/12 gap-x-3 py-6 "}>
+              <div className={"col-span-2 flex justify-center items-center"}>
+                <img
+                  src={
+                    "http://www.projectwest.co.uk/wp-content/uploads/2014/11/Independent-and-Family-Centric.jpg"
+                  }
+                  className={"h-auto w-auto"}
+                  alt=""
+                />
+              </div>
+              <div className={"col-span-6 flex flex-col justify-center"}>
+                <h1 className={" font-medium text-sm sm:text-sm md:text-lg"}>
+                  Independent and Family Centric
+                </h1>
+                <span className={"mt-1 text-sm font-thin text-white"}>
+                  We are an independent and family centric organisation
+                  operating in dedicated premises.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className={
+              "w-full h-full col-span-1 flex items-center justify-center"
+            }
+          >
+            <div className={"grid grid-cols-8 w-11/12 gap-x-3 py-6 "}>
+              <div className={"col-span-2 flex justify-center items-center"}>
+                <img
+                  src="http://www.projectwest.co.uk/wp-content/uploads/2014/11/iStock_000008323614Medium.jpg"
+                  className={"h-auto w-auto"}
+                  alt=""
+                />
+              </div>
+              <div className={"col-span-6 flex flex-col justify-center"}>
+                <h1 className={" font-medium text-sm sm:text-sm md:text-lg"}>
+                  Homely and Safe Environment
+                </h1>
+                <span className={"mt-1 text-sm font-thin text-white"}>
+                  We provide a safe, friendly and warm environment in which we
+                  work with many families.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer className="bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
           <nav
             className="-mx-5 -my-2 flex flex-wrap justify-center"
