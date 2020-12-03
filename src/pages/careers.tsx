@@ -4,7 +4,7 @@ import { PageProps } from "gatsby";
 import SliderComponent from "../components/organisms/careers/slider";
 import Question from "../components/organisms/careers/Question";
 
-const ServicePage = ({ location }: PageProps) => {
+const CareersPage = ({ location }: PageProps) => {
   return (
     <React.Fragment>
       <Layout location={location}>
@@ -322,4 +322,4 @@ const ServicePage = ({ location }: PageProps) => {
   );
 };
 
-export default ServicePage;
+export default CareersPage;
