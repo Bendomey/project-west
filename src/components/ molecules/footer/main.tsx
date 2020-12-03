@@ -96,7 +96,7 @@ const Footer = () => {
           >
             <div className="px-5 py-2">
               <Link
-                to="#"
+                to="/about-us"
                 className="text-base text-gray-500 hover:text-gray-900"
               >
                 About
@@ -104,12 +104,12 @@ const Footer = () => {
             </div>
 
             <div className="px-5 py-2">
-              <a
-                href="#"
+              <Link
+                to="/blog"
                 className="text-base text-gray-500 hover:text-gray-900"
               >
                 Blog
-              </a>
+              </Link>
             </div>
 
             <div className="px-5 py-2">
