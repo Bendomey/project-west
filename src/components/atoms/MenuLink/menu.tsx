@@ -30,7 +30,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({
             className={`${
               currentUrl === path
                 ? "border-primary-700 text-primary-900"
-                : "text-gray-900  hover:text-gray-700 hover:border-gray-300"
+                : "text-gray-900  hover:text-gray-600 hover:border-gray-300"
             }  h-full border-transparent inline-flex items-center px-1 pt-1 border-t-4 text-sm font-medium`}
           >
             {name}
