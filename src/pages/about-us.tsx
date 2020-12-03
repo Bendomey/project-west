@@ -72,7 +72,9 @@ const AboutUsPage = ({ location }: PageProps) => {
             </div>
           </div>
           <div
-            className={"grid grid-cols-1 h-96 sm:grid-cols-1 md:grid-cols-2"}
+            className={
+              "grid grid-cols-1 h-full sm:h-full md:h-96 sm:grid-cols-1 md:grid-cols-2"
+            }
           >
             <div
               className={
