@@ -18,7 +18,7 @@ const AboutUsPage = ({ location }: PageProps) => {
             // }
           />
           <div className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2"}>
-            <div className={"bg-gray-800 p-5"}>
+            <div className={"bg-primary-800 p-5"}>
               <div className={"my-10 flex justify-center items-center"}>
                 <div className={" flex flex-col items-center"}>
                   <p className=" text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
@@ -48,7 +48,9 @@ const AboutUsPage = ({ location }: PageProps) => {
                 </div>
               </div>
             </div>
-            <div className={"bg-gray-600 p-5 flex justify-center items-center"}>
+            <div
+              className={"bg-primary-600 p-5 flex justify-center items-center"}
+            >
               <div className={"my-10 flex justify-center items-center"}>
                 <div className={" flex flex-col items-center"}>
                   <p className="mt-2 text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
@@ -69,8 +71,14 @@ const AboutUsPage = ({ location }: PageProps) => {
               </div>
             </div>
           </div>
-          <div className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2"}>
-            <div className={"bg-gray-800 sm:bg-gray-800 lg:bg-gray-600 p-5"}>
+          <div
+            className={"grid grid-cols-1 h-96 sm:grid-cols-1 md:grid-cols-2"}
+          >
+            <div
+              className={
+                "bg-primary-800 sm:bg-primary-800 lg:bg-primary-600 p-5 flex justify-center items-center"
+              }
+            >
               <div className={"my-10 flex justify-center items-center"}>
                 <div className={" flex flex-col items-center"}>
                   <p className="mt-2 text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
@@ -87,7 +95,7 @@ const AboutUsPage = ({ location }: PageProps) => {
             </div>
             <div
               className={
-                "bg-gray-600 sm:bg-gray-600 lg:bg-gray-800 p-5 flex justify-center items-center"
+                "bg-primary-600 sm:bg-primary-600 lg:bg-primary-800 p-5 flex justify-center items-center"
               }
             >
               <div className={"my-10 flex justify-center items-center"}>
@@ -106,10 +114,12 @@ const AboutUsPage = ({ location }: PageProps) => {
             </div>
           </div>
 
-          <div className={"my-10 flex justify-center items-center"}>
+          <div
+            className={"py-10 flex justify-center items-center bg-primary-700"}
+          >
             <div
               className={
-                "w-11/12 sm:w-11/12 md:w-2/3 flex flex-col items-center"
+                "w-11/12 sm:w-11/12 md:w-2/3 flex flex-col items-center text-white"
               }
             >
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
