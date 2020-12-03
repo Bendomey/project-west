@@ -5,9 +5,15 @@ interface QuestionProp {
 }
 
 const MainComponent: React.FC<QuestionProp> = ({ children, title }) => {
+  const [show, setShow] = React.useState<boolean>(true);
   return (
     <React.Fragment>
-      <div className={"py-5 px-2 bg-primary-700 flex flex-row justify-between"}>
+      <div
+        onClick={() => setShow(!show)}
+        className={
+          "py-5 px-2 cursor-pointer bg-primary-700 flex flex-row justify-between"
+        }
+      >
         <div className={"text-white"}>
           <p>{title}</p>
         </div>
@@ -28,7 +34,7 @@ const MainComponent: React.FC<QuestionProp> = ({ children, title }) => {
           </svg>
         </div>
       </div>
-      <div className={"bg-primary-50 p-5"}>{children}</div>
+      {show && <div className={"bg-primary-50 p-5"}>{children}</div>}
     </React.Fragment>
   );
 };
