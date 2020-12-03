@@ -1,8 +1,7 @@
 import * as React from "react";
 import Layout from "../components/organisms/layout";
 import { PageProps } from "gatsby";
-import SliderComponent from "../components/ molecules/slider";
-import { Link } from "gatsby";
+import SliderComponent from "../components/organisms/about-us/slider";
 
 const AboutUsPage = ({ location }: PageProps) => {
   return (
