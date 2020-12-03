@@ -5,7 +5,7 @@ import { SliderProps } from "./types";
 const SliderComponent: React.FC<SliderProps> = ({ message, image }) => {
   return (
     <React.Fragment>
-      <div className={"relative h-72 sm:h-72 md:h-54"}>
+      <div className={"relative h-48 sm:h-48 md:h-54"}>
         <div
           className={
             "absolute h-full w-full bg-black bg-opacity-50 sm:bg-opacity-50 md:bg-opacity-40 flex justify-center items-center"

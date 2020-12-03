@@ -17,11 +17,11 @@ const AboutUsPage = ({ location }: PageProps) => {
             //   "https://images.unsplash.com/photo-1518842023089-50e9ac314ad1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80"
             // }
           />
-          <div className={"grid grid-cols-2"}>
+          <div className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2"}>
             <div className={"bg-gray-800 p-5"}>
               <div className={"my-10 flex justify-center items-center"}>
                 <div className={" flex flex-col items-center"}>
-                  <p className="mt-2 text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
+                  <p className=" text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
                     Who we are
                   </p>
                   <p className={"text-center mt-4  text-gray-200 font-light"}>
@@ -69,8 +69,8 @@ const AboutUsPage = ({ location }: PageProps) => {
               </div>
             </div>
           </div>
-          <div className={"grid grid-cols-2"}>
-            <div className={"bg-gray-600 p-5"}>
+          <div className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2"}>
+            <div className={"bg-gray-800 sm:bg-gray-800 lg:bg-gray-600 p-5"}>
               <div className={"my-10 flex justify-center items-center"}>
                 <div className={" flex flex-col items-center"}>
                   <p className="mt-2 text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
@@ -85,7 +85,11 @@ const AboutUsPage = ({ location }: PageProps) => {
                 </div>
               </div>
             </div>
-            <div className={"bg-gray-800 p-5 flex justify-center items-center"}>
+            <div
+              className={
+                "bg-gray-600 sm:bg-gray-600 lg:bg-gray-800 p-5 flex justify-center items-center"
+              }
+            >
               <div className={"my-10 flex justify-center items-center"}>
                 <div className={" flex flex-col items-center"}>
                   <p className="mt-2 text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
@@ -103,7 +107,11 @@ const AboutUsPage = ({ location }: PageProps) => {
           </div>
 
           <div className={"my-10 flex justify-center items-center"}>
-            <div className={"w-2/3 flex flex-col items-center"}>
+            <div
+              className={
+                "w-11/12 sm:w-11/12 md:w-2/3 flex flex-col items-center"
+              }
+            >
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
                 Diversity
               </p>
