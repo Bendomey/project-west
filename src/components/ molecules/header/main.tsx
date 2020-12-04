@@ -3,6 +3,7 @@ import MenuLink from "../../atoms/MenuLink";
 import routes, { RouteProps } from "../../../services/routes";
 import { HeaderProps } from "./types.d";
 import { Transition } from "@headlessui/react";
+import { Link } from "gatsby";
 
 const HeaderContainer: React.FC<HeaderProps> = ({ location }) => {
   const [showDropdownMenus, setShowDropdownMenus] = React.useState<boolean>(
@@ -15,16 +16,20 @@ const HeaderContainer: React.FC<HeaderProps> = ({ location }) => {
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
-                <img
-                  className="block lg:hidden h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                  alt="Workflow"
-                />
-                <img
-                  className="hidden lg:block h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                  alt="Workflow"
-                />
+                <Link to={"/"}>
+                  <img
+                    className="block lg:hidden h-8 w-auto"
+                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    alt="Workflow"
+                  />
+                </Link>
+                <Link to={"/"}>
+                  <img
+                    className="hidden lg:block h-8 w-auto"
+                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
+                    alt="Workflow"
+                  />
+                </Link>
               </div>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:items-center">

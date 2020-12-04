@@ -128,10 +128,10 @@ const Footer = () => {
 
             <div className="px-5 py-2">
               <Link
-                to="/services"
+                to="/contact-us"
                 className="text-base text-gray-500 hover:text-gray-900"
               >
-                Services
+                Contact Us
               </Link>
             </div>
 
