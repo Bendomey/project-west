@@ -9,7 +9,7 @@ import {
   Marker,
 } from "react-google-maps";
 
-const ContactUsPage = () => {
+const ContactUsPage = ({ location }: PageProps) => {
   return (
     <React.Fragment>
       <Layout location={location}>
