@@ -49,7 +49,11 @@ const ServicePage = ({ location }: PageProps) => {
             </section>
             <div className="max-w-7xl py-5 mx-auto px-4 sm:px-6 lg:px-8">
               <div className={"grid grid-cols-2 gap-8"}>
-                <div className={"bg-gray-50 py-5 px-3"}>
+                <div
+                  className={
+                    "col-span-2 sm:col-span-2 md:col-span-1 bg-gray-50 py-5 px-3"
+                  }
+                >
                   <section id={"family-support"} className={"mt-5"}>
                     <div className={"text-center"}>
                       <h2 className="text-base  text-primary-600 font-semibold tracking-wide uppercase">
@@ -81,7 +85,11 @@ const ServicePage = ({ location }: PageProps) => {
                     </div>
                   </section>
                 </div>
-                <div className={"bg-gray-50 p-3"}>
+                <div
+                  className={
+                    "col-span-2 sm:col-span-2 md:col-span-1 bg-gray-50 p-3"
+                  }
+                >
                   <section id={"mentoring"} className={"mt-5"}>
                     <div className={"text-center"}>
                       <h2 className="text-base  text-primary-600 font-semibold tracking-wide uppercase">
@@ -120,7 +128,9 @@ const ServicePage = ({ location }: PageProps) => {
                     </section>
                   </div>
                 </div>
-                <div className={"col-span-2 bg-gray-50 px-16 py-3"}>
+                <div
+                  className={"col-span-2 bg-gray-50 px-5 sm:px-5 md:px-16 py-3"}
+                >
                   <section
                     id={"additional-professional-services"}
                     className={"mt-5 "}
