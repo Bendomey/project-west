@@ -132,7 +132,7 @@ const Footer = () => {
 
             <div className="px-5 py-2">
               <Link
-                to="/#feedback"
+                to="/feedback"
                 className="text-base text-gray-500 hover:text-gray-900"
               >
                 Feedback

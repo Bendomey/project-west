@@ -299,7 +299,7 @@ const CareersPage = ({ location }: PageProps) => {
                     </div>
                   </div>
                   <div className={"col-span-4 flex flex-col"}>
-                    <div className={"mb-2 sm:mb-2 md:mb-6"}>
+                    <div className={"mb-2 sm:mb-2 md:mb-7"}>
                       <label
                         htmlFor="name"
                         className={"text-sm text-white"}
@@ -307,7 +307,7 @@ const CareersPage = ({ location }: PageProps) => {
                     </div>
                     <button
                       type="submit"
-                      className="flex justify-center px-4 py-5 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                      className="flex justify-center px-4 py-4 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                     >
                       SEND
                     </button>
