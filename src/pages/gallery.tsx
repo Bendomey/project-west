@@ -94,9 +94,9 @@ const GalleryPage = ({ location }: PageProps) => {
               <h2 className="text-base text-primary-600 font-semibold tracking-wide uppercase">
                 Gallery
               </h2>
-              <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              {/* <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Some short text should be here
-              </p>
+              </p> */}
             </div>
 
             <div className={"mt-5"}>
