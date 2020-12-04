@@ -242,7 +242,7 @@ const Footer = () => {
             </a> */}
           </div>
           <p className="mt-8 text-center text-base text-gray-400">
-            &copy; 2015 Copyright by{" "}
+            &copy; 2015 - {new Date().getFullYear()} Copyright by{" "}
             <span className="text-primary-600">Projectwest.co.uk</span>
           </p>
         </div>
