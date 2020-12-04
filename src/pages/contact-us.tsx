@@ -2,6 +2,12 @@ import * as React from "react";
 import Layout from "../components/organisms/layout";
 import { PageProps } from "gatsby";
 import SliderComponent from "../components/organisms/services/slider";
+import {
+  withScriptjs,
+  withGoogleMap,
+  GoogleMap,
+  Marker,
+} from "react-google-maps";
 
 const ContactUsPage = () => {
   return (
@@ -132,10 +138,26 @@ const ContactUsPage = () => {
               </div>
             </div>
           </div>
+          <div>
+            <MyMapComponent
+              googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key="
+              loadingElement={<div style={{ height: `100%` }} />}
+              containerElement={<div style={{ height: `400px` }} />}
+              mapElement={<div style={{ height: `100%` }} />}
+            />
+          </div>
         </React.Fragment>
       </Layout>
     </React.Fragment>
   );
 };
+
+const MyMapComponent = withScriptjs(
+  withGoogleMap((props: any) => (
+    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
+      <Marker position={{ lat: -34.397, lng: 150.644 }} />
+    </GoogleMap>
+  ))
+);
 
 export default ContactUsPage;
