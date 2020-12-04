@@ -38,7 +38,11 @@ const ChildrenContactService = () => {
   return (
     <React.Fragment>
       <div className={"grid grid-cols-8 gap-8"}>
-        <div className={"col-span-8 sm:col-span-8 md:col-span-5"}>
+        <div
+          className={
+            "col-span-8 sm:col-span-8 md:col-span-5 order-2 sm:order-2 md:order-1"
+          }
+        >
           {data.map((service: dataProps, i: number) => (
             <React.Fragment key={i}>
               <SingleService
@@ -52,12 +56,18 @@ const ChildrenContactService = () => {
             </React.Fragment>
           ))}
         </div>
-        <div className={"col-span-8 sm:col-span-8 md:col-span-3"}>
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/childrencontactservice.jpg?alt=media&token=cd2b2612-131d-460f-9b5a-a2a2950c0698"
-            className={"h-auto w-full"}
-            alt=""
-          />
+        <div
+          className={
+            "col-span-8 sm:col-span-8 md:col-span-3 order-1 sm:order-1 md:order-2"
+          }
+        >
+          <div className={"sticky top-1"}>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/childrencontactservice.jpg?alt=media&token=cd2b2612-131d-460f-9b5a-a2a2950c0698"
+              className={"h-auto w-full"}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </React.Fragment>
