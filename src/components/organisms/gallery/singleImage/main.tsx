@@ -17,8 +17,8 @@ const SingleGallery: React.FC<GalleryDataProps> = ({
       <div
         onMouseEnter={() => setShow(true)}
         onMouseLeave={() => setShow(false)}
-        className={"w-full relative col-span-1 cursor-pointer"}
-        onClick={onClick}
+        className={"w-full relative col-span-1"}
+        // onClick={onClick}
       >
         {show && (
           <div
