@@ -562,9 +562,6 @@ const AssessmentsService = () => {
               src={
                 "https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/photo-1600880291298-8481039492bc.jpeg?alt=media&token=9afb3c23-c7e4-4026-adff-58692e8aabd4"
               }
-              // src={
-              //   "https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/photo-1605627079912-97c3810a11a4.jpeg?alt=media&token=23faa5ee-df5d-4fac-9e88-98f28ea68488"
-              // }
               className={"h-auto w-full"}
               alt=""
             />

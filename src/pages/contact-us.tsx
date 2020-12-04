@@ -17,7 +17,7 @@ const ContactUsPage = ({ location }: PageProps) => {
           <SliderComponent
             message={"Contact Us"}
             image={
-              "https://images.unsplash.com/photo-1469406396016-013bfae5d83e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
+              "https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/photo-1469406396016-013bfae5d83e.jpeg?alt=media&token=58ec11cc-33e1-4e7a-abcf-425b29168d63"
             }
           />
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

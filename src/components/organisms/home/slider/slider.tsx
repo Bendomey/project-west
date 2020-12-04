@@ -32,7 +32,7 @@ const SliderComponent = () => {
           className={"h-full w-full"}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2691&q=80)",
+              "url(https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/photo-1549057446-9f5c6ac91a04.jpeg?alt=media&token=17899181-2dc9-4d39-a91a-0d901306b98e)",
             backgroundSize: "179vh",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "top center",

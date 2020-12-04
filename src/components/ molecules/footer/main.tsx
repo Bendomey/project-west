@@ -18,12 +18,17 @@ const Footer = () => {
             }
           >
             <div className={"grid grid-cols-8 w-11/12 gap-x-3 py-6 "}>
-              <div className={"col-span-2 flex justify-center items-center"}>
-                <img
-                  src="http://www.projectwest.co.uk/wp-content/uploads/2014/11/naccc1.png"
-                  className={"h-auto w-auto"}
-                  alt=""
-                />
+              <div className={"col-span-2 flex justify-center items-center "}>
+                <div className={"bg-white p-2"}>
+                  <img
+                    src={
+                      "https://firebasestorage.googleapis.com/v0/b/fibonacci-commerce.appspot.com/o/NACCC-logo.png?alt=media&token=a4377930-9c37-40a9-9f07-bccb8cb35724"
+                    }
+                    // src="http://www.projectwest.co.uk/wp-content/uploads/2014/11/naccc1.png"
+                    className={"h-auto w-auto"}
+                    alt=""
+                  />
+                </div>
               </div>
               <div className={"col-span-6 flex flex-col justify-center"}>
                 <h1 className={" font-medium text-sm sm:text-sm md:text-lg"}>
